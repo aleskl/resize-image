@@ -1,9 +1,13 @@
 # Resize images to fixed size with padding
 Resize images and add padding in background color to get a fixed image size for Grav blog header image using ImageMagick
 
+## How to use
+1. install ImageMagick (eg. https://linuxopsys.com/topics/install-latest-imagemagick-on-ubuntu-20-04)
+2. copy `resizepad.sh` to your user folder and run it with the image filename as argument
+
 You can use the bash script in Ubuntu WSL terminal to resize an image in your windows user Downloads folder:
 ```
-sh resizegrav.sh /mnt/c/Users/aleskl/Downloads/image.jpg
+sh resizepad.sh /mnt/c/Users/aleskl/Downloads/image.jpg
 ```
 
 Edit the `size` variable for different image size
