@@ -13,7 +13,7 @@ size="960x400"
 
 Edit the `convert` argument `-background` for background padding colour
 ```
-convert "$1" -resize $size -background white...
+convert "$1" -resize $size -background white -gravity center -extent $size "${filename}_${size}.${extension}"
 ```
 
 ## References
