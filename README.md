@@ -26,7 +26,7 @@ convert "$1" -resize $size -background white -gravity center -extent $size "${fi
 ```
 
 ## How to use (Windows)
-1. install ImageMagick (eg. [https://imagemagick.org/script/download.php#windows](https://imagemagick.org/script/download.php#windows))
+1. install ImageMagick ([https://imagemagick.org/script/download.php#windows](https://imagemagick.org/script/download.php#windows))
 2. copy `resizepad.bat` to your user folder and run it with the image filename as argument
 
 Run the batch script in Windows Terminal (Command Prompt) to resize an image in the same folder:
