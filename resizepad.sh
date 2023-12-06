@@ -10,5 +10,5 @@ size="960x400"
 extension="${1##*.}"
 filename="${1%.*}"
 convert "$1" -resize $size -background white -gravity center -extent $size "${filename}_${size}.${extension}"
-echo "Output:" "${filename}_960x400.${extension}"
+echo "Output:" "${filename}_${size}.${extension}"
 
