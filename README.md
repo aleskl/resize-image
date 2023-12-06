@@ -34,7 +34,7 @@ Run the batch script in Windows Terminal (Command Prompt) to resize an image in 
 resizepad.bat image.jpg
 ```
 
-Edit the `size` and `convert` variable for different image size and background padding colour as above
+Edit the `size` and `convert` variables for different image size and background padding colour as above
 
 
 ## References
