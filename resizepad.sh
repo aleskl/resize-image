@@ -4,7 +4,7 @@
 # https://stackoverflow.com/questions/965053/extract-filename-and-extension-in-bash
 #
 # example usage:
-# sh resizepad.sh /mnt/c/Users/aleskl/Downloads/image.jpg
+# sh resizepad.sh image.jpg
 
 size="960x400"
 extension="${1##*.}"
